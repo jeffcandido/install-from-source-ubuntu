@@ -9,6 +9,8 @@ sudo tar -xzf app-to-install.tar.gz -C /opt
 
 4 - Criar um arquivo de extensão *.desktop no caminho /usr/share/applications/ com um conteúdo semelhante a esse:
 
+
+```
 [Desktop Entry]
 Name=IntelliJIDEA
 Comment=Integrated Development Environment (IDE) for JVM languages
@@ -18,6 +20,7 @@ StartupNotify=true
 Terminal=false
 Type=Application
 Categories=API;Development;Programming;IDE;JVM;Kotlin;Java;Gradle
+```
 
 5 - Pronto, seu programa já poderá ser encontrado na pesquisa do Ubuntu.
 
